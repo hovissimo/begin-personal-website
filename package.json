@@ -30,5 +30,29 @@
   },
   "dependencies": {
     "@architect/functions": "^5.0.0"
+  },
+  "eslintConfig": {
+    "env": {
+      "node": true
+    },
+    "extends": "eslint:recommended",
+    "rules": {
+      "indent": [
+        "error",
+        2
+      ]
+    },
+    "ignorePatterns": [],
+    "parserOptions": {
+      "sourceType": "module",
+      "ecmaVersion": 2022
+    }
+  },
+  "prettier": {
+    "bracketSameLine": false,
+    "printWidth": 60,
+    "semi": false,
+    "singleAttributePerLine": true,
+    "singleQuote": true
   }
 }
