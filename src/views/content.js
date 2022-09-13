@@ -5,7 +5,7 @@ const MailLink = require('./link-mail')
 const SocialMedia = require('./social-media')
 const Icon = require('./icon')
 
-module.exports = function Content (props) {
+module.exports = function Content(props) {
   props = props || {}
   let fullname = props.fullname || ''
   let occupation = props.occupation || ''
@@ -48,14 +48,14 @@ module.exports = function Content (props) {
       "
     >
       ${LargeHeading({
-        children: fullname
-      })}
+    children: fullname,
+  })}
       ${MediumHeading({
-        children: occupation
-      })}
+    children: occupation,
+  })}
       ${LocationLink({
-        location
-      })}
+    location,
+  })}
       <p
         class="
           margin-bottom-42
@@ -75,14 +75,14 @@ module.exports = function Content (props) {
         "
       >
         ${MailLink({
-          email
-        })}
+    email,
+  })}
         ${SocialMedia({
-          twitter,
-          linkedin,
-          instagram,
-          facebook
-        })}
+    twitter,
+    linkedin,
+    instagram,
+    facebook,
+  })}
       </div>
     </div>
   </div>
@@ -126,10 +126,10 @@ module.exports = function Content (props) {
         rel="noopener"
       >
         ${Icon({
-          class: 'fill-inherit',
-          href: 'begin',
-          style: 'width:4rem;height:1.2725rem;'
-        })}
+    class: 'fill-inherit',
+    href: 'begin',
+    style: 'width:4rem;height:1.2725rem;',
+  })}
       </a>
     </span>
     <a

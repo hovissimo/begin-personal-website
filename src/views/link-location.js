@@ -33,5 +33,5 @@ module.exports = function LocationLink (props) {
   ${location}
 </a>
   `
-  : ''
+    : ''
 }

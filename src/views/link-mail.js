@@ -33,5 +33,5 @@ module.exports = function MailLink (props) {
   Drop me an email!
 </a>
   `
-  : ''
+    : ''
 }

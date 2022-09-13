@@ -9,68 +9,68 @@ module.exports = function SocialMedia (props) {
   return `
 <div class="display-flex">
 ${twitter
-  ? `
+    ? `
   <a
     href="https://twitter.com/${twitter}"
     target="_blank"
     rel="noopener"
   >
     ${Icon({
-      class: 'margin-right-18 fill-979797 fill-hover-058AEA transition-fill',
-      style: 'width:1.470625rem;height:1.25rem;',
-      href: 'twitter'
-    })}
+    class: 'margin-right-18 fill-979797 fill-hover-058AEA transition-fill',
+    style: 'width:1.470625rem;height:1.25rem;',
+    href: 'twitter'
+  })}
   </a>
   `
-  : ''
+    : ''
 }
 ${linkedin
-  ? `
+    ? `
   <a
     href="https://linkedin.com/in/${linkedin}"
     target="_blank"
     rel="noopener"
   >
     ${Icon({
-      class: 'margin-right-18 fill-979797 fill-hover-058AEA transition-fill',
-      style: 'width:1.25rem;height:1.25rem;',
-      href: 'linkedin'
-    })}
+    class: 'margin-right-18 fill-979797 fill-hover-058AEA transition-fill',
+    style: 'width:1.25rem;height:1.25rem;',
+    href: 'linkedin'
+  })}
   </a>
   `
-  : ''
+    : ''
 }
 ${instagram
-  ? `
+    ? `
   <a
     href="https://instagram.com/${instagram}"
     target="_blank"
     rel="noopener"
   >
     ${Icon({
-      class: 'margin-right-18 fill-979797 fill-hover-058AEA transition-fill',
-      style: 'width:1.25rem;height:1.25rem;',
-      href: 'instagram'
-    })}
+    class: 'margin-right-18 fill-979797 fill-hover-058AEA transition-fill',
+    style: 'width:1.25rem;height:1.25rem;',
+    href: 'instagram'
+  })}
   </a>
   `
-  : ''
+    : ''
 }
 ${facebook
-  ? `
+    ? `
   <a
     href="https://facebook.com/${facebook}"
     target="_blank"
     rel="noopener"
   >
     ${Icon({
-      class: 'margin-right-18 fill-979797 fill-hover-058AEA transition-fill',
-      style: 'width:1.25rem;height:1.25rem;',
-      href: 'facebook'
-    })}
+    class: 'margin-right-18 fill-979797 fill-hover-058AEA transition-fill',
+    style: 'width:1.25rem;height:1.25rem;',
+    href: 'facebook'
+  })}
   </a>
   `
-  : ''
+    : ''
 }
 </div>
   `
