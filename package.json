@@ -29,6 +29,6 @@
     "@begin/data": "^4.0.0"
   },
   "dependencies": {
-    "@architect/functions": "^4.0.0"
+    "@architect/functions": "^5.0.0"
   }
 }
