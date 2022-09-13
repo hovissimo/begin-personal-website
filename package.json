@@ -26,7 +26,8 @@
   "devDependencies": {
     "@architect/architect": "^10.0.0",
     "@architect/sandbox": "",
-    "@begin/data": "^4.0.0"
+    "@begin/data": "^4.0.0",
+    "eslint": "^8.23.1"
   },
   "dependencies": {
     "@architect/functions": "^5.0.0"
